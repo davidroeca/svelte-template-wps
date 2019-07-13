@@ -48,7 +48,7 @@ module.exports = {
     bundle: [
       './src/main.js',
 
-      ...(!prod ? devEntries : {}),
+      ...(!prod ? devEntries : []),
     ],
   },
   output: {
