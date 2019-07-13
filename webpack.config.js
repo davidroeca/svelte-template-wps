@@ -17,6 +17,8 @@ const devPlugins = [
     // Remove liveReload when the following issue is resolved:
     // https://github.com/sveltejs/svelte-loader/issues/92
     liveReload: true,
+    // And set this to true
+    hmr: false,
     historyFallback: {
       index: path.join(publicPath, 'index.html'),
     },
